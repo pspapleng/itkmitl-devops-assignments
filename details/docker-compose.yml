@@ -1,0 +1,6 @@
+services:
+  details:
+    build: .
+    image: ghcr.io/pspapleng/bookinfo-details:dev
+    ports:
+      - "8081:9080"
